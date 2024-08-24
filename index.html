@@ -165,8 +165,20 @@
 			document.getElementById(tabname).classList.add("active-tab");
 		}
 </script>
+<script>
+                            (function(w, d, s) {
+                                // Set the chatbotConfig globally
+                                w.chatbotConfig = { botId: '157', token: '$2y$10$8ls646X.3dEIC8YIAvNHxeJb4AzVYKP2EzblV1IsSECw/bLsXTVoy' };
 
-
+                                // Create and append the chatbot.js script
+                                var f = d.getElementsByTagName(s)[0],
+                                    j = d.createElement(s);
+                                j.async = true;
+                                j.src = 'https://nimbleproperty.net/botAI/chatbot.js'; // Update the URL to your actual script URL
+                                f.parentNode.insertBefore(j, f);
+                            })(window, document, 'script');
+</script>
+                        
 
 
 </body>
